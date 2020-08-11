@@ -2,7 +2,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[Corona3](
+CREATE TABLE [dbo].[Corona3]
+(
 	[Tag] [int] NULL,
 	[Monat] [int] NULL,
 	[Jahr] [int] NULL,
@@ -12,6 +13,7 @@ CREATE TABLE [dbo].[Corona3](
 	[LänderID] [varchar](50) NULL,
 	[Einwohner] [int] NULL,
 	[Kontinent] [varchar](50) NULL,
-	[Datum] [date] NULL
+	[Datum] [date] NULL,
+	spy int, spz int
 ) ON [PRIMARY]
 GO
